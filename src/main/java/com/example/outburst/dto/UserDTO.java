@@ -11,6 +11,8 @@ public class UserDTO {
     @NotEmpty
     private String email;
     @NotEmpty
+    private String username;
+    @NotEmpty
     private String firstname;
     @NotEmpty
     private String lastname;

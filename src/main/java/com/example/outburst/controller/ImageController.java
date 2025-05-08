@@ -13,7 +13,6 @@ import java.security.Principal;
 
 @RestController
 @RequestMapping("api/image")
-
 public class ImageController {
 
     private final ImageService imageService;
